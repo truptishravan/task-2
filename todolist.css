@@ -1,0 +1,44 @@
+body{
+    background-color: reg(4, 29, 29);
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 360;
+    padding: 33PX;
+    text-align: center;
+     background-color: #fff;
+     margin-left: 33%;
+     margin-top: 5px;
+
+}
+ width: 270px;
+ padding: 8px;
+ border: 2px solid rgb (6, 14, 145);
+ outline: none;
+ font-size 19px; 
+
+ 
+button{
+    width: 60;
+    height: 41;
+    background-color: rgb(red, green, blue);
+    color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+ .text ul{
+    position: relative;
+    background-color: reb(5,31,31);
+    color: azure;
+    font-size: 19px;
+    text-align: left;
+
+ }
+  .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+  }

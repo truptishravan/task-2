@@ -1,0 +1,19 @@
+let inputs = document.getElementbyID("inp");
+text = document.queryselector(".text);
+
+ function add(){
+    if(inputs.values ""){
+        alert ("please enter task")
+    }else{
+         let newEle = document.createElement("u1");
+         newEle = innerHTML= '$'{inputs.values} <i class="fa-solid fa-trash"></i>;
+         text.appendchild(newEle);
+         inputs.values="";
+         newEle.queryselector("i").addEventlistener("click , remove);
+         function remove(){
+             newEle.remove()
+         }
+      }
+    }
+
+ 
